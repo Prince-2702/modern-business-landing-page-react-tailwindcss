@@ -3,6 +3,8 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import CompanyLogo from "./Components/CompanyLogo";
 import PurposeSection from "./Components/PurposeSection";
+import { Features } from "tailwindcss";
+import FeaturesSection from "./Components/FeaturesSection";
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
         <Hero />
         <CompanyLogo />
         <PurposeSection />
+        <FeaturesSection />
       </div>
     </main>
   );
