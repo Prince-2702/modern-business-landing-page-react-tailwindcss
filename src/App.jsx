@@ -5,6 +5,7 @@ import CompanyLogo from "./Components/CompanyLogo";
 import PurposeSection from "./Components/PurposeSection";
 import { Features } from "tailwindcss";
 import FeaturesSection from "./Components/FeaturesSection";
+import ScheduleSection from "./Components/ScheduleSection";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <CompanyLogo />
         <PurposeSection />
         <FeaturesSection />
+        <ScheduleSection />
       </div>
     </main>
   );
