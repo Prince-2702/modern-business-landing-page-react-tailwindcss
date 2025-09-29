@@ -6,6 +6,7 @@ import PurposeSection from "./Components/PurposeSection";
 import { Features } from "tailwindcss";
 import FeaturesSection from "./Components/FeaturesSection";
 import ScheduleSection from "./Components/ScheduleSection";
+import MonitorSection from "./Components/MonitorSection";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <PurposeSection />
         <FeaturesSection />
         <ScheduleSection />
+        <MonitorSection />
       </div>
     </main>
   );

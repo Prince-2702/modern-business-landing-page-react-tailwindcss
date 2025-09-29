@@ -4,7 +4,7 @@ import { IoIosArrowRoundForward } from "react-icons/io"
 
 const ScheduleSection = () => {
   return (
-    <div className='max-w-7xl mx-auto px-4 py-16 md:py-24'>
+    <section className='max-w-7xl mx-auto px-4 py-16 md:py-24'>
         <div className='flex flex-col md:flex-row justify-between items-center gap-12 md:gap-24'>
             {/* left */}
             <div className='md:w-1/2  w-full'>
@@ -23,7 +23,7 @@ const ScheduleSection = () => {
                 </a>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 
