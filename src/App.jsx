@@ -9,6 +9,7 @@ import ScheduleSection from "./Components/ScheduleSection";
 import MonitorSection from "./Components/MonitorSection";
 import PricingSection from "./Components/PricingSection";
 import ServicesSEction from "./Components/ServicesSEction";
+import TestimonialsSection from "./Components/TestimonialsSection";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <MonitorSection />
         <PricingSection />
         <ServicesSEction />
+        <TestimonialsSection />
       </div>
     </main>
   );
