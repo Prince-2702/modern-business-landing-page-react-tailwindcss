@@ -29,7 +29,6 @@ const PurposeSection = () => {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: true }}
             className=""
           >
             <p className="text-sm text-purple-600 font-medium mb-2">
