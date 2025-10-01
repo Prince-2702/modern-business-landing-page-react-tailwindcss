@@ -11,6 +11,7 @@ import PricingSection from "./Components/PricingSection";
 import ServicesSEction from "./Components/ServicesSEction";
 import TestimonialsSection from "./Components/TestimonialsSection";
 import Newsletter from "./Components/Newsletter";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <ServicesSEction />
         <TestimonialsSection />
         <Newsletter />
+        <Footer />
       </div>
     </main>
   );
