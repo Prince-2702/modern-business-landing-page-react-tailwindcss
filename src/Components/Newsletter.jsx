@@ -3,7 +3,7 @@ import { HiArrowRight } from "react-icons/hi";
 
 const Newsletter = () => {
   return (
-    <section className="container mx-auto px-4 m:px-6 lg:px-8 py-16">
+    <section className="container mx-auto px-4 m:px-6 lg:px-8 py-16" id="newslater">
       <div className="bg-blue-600 rounded-2xl overflow-hidden">
         <div className="relative md:px-16 py-16 px-6 md:py-24">
           {/* gradient bg */}
